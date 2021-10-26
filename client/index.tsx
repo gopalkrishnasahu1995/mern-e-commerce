@@ -8,10 +8,11 @@ import './assets/styles/styles.scss'
 // window.store = store
 
 ReactDOM.render(
-  <Provider store={store}>
+  // <Provider store={store}>
     <ConnectedRouter history={history}>
       <App />
     </ConnectedRouter>
-  </Provider>,
+  // </Provider>,
+  ,
   document.getElementById('root') as HTMLElement
 )
